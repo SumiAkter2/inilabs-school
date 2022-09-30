@@ -1,0 +1,102 @@
+.banner-img{
+    width: 1920px;
+    height: 790px;
+}
+.banner-content{
+    width: 100%;
+}
+.top-horizontal-line img{
+    width: 30px;
+}
+.top-content {
+    Font-family: 'Open Sans';
+    font-weight: bold;
+    Font-size: 14px;
+    Line-height: 19px;
+    Line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color: #FFFFFF;
+   margin-top: 8px;
+   margin-bottom: 139px;
+   
+}
+/* 
+.banner-left-content{
+    width: 621px;
+    height: 180px;
+   
+} */
+.banner-left-content h1{
+    Font-family: 'Open Sans';
+    font-weight: Bold;
+    Font-size: 80px;
+    Line-height: 90px;
+    Line-height: 83% ;
+    text-align: left;
+    vertical-align: top;
+}
+.banner-left-content p{
+    Font-family: 'Open Sans';
+    font-weight: 300;
+    Font-size: 26px;
+    Line-height: 40px;
+    Line-height: 113%;
+    text-align: left;
+    vertical-align: top;
+}
+.apply-btn{
+    width: 237px ;
+    height: 70px;
+    background-color: #FA5E01;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    Font-size: 24px;
+    Line-height: 48px;
+    Line-height: 147%;
+    margin-top: 64px;
+    Vertical-align: Top;
+    
+}
+.circle-btn{
+    width: 120px;
+    height: 120px;
+    margin-left: 299px;
+}
+.banner-right-content h4{
+        Font-family: 'Open Sans';
+        font-weight: 300;
+        Font-size: 28px;
+        Line-height: 38px;
+        Line-height: 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #FFFFFF;
+}
+.banner-right-content h3 {
+    Font-family: 'Open Sans';
+    font-weight: bold;
+    Font-size: 44px;
+    Line-height: 50px;
+    Line-height: 83%;
+    text-align: left;
+    vertical-align: top;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.banner-right-content p {
+    Font-family: 'Open Sans';
+    font-weight: bold;
+    Font-size: 14px;
+    Line-height: 19px;
+    Line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color: #FFFFFF;
+    margin-top: 8px;
+    
+}
+.horizontal-line img{
+    width: 30px;
+    margin-top: 766px;
+}
