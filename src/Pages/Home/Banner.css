@@ -58,6 +58,12 @@
     Vertical-align: Top;
     
 }
+.apply-btn:hover{
+    color: #FA5E01;
+    cursor: pointer;
+    border: 2px solid #FA5E01;
+    background: #FFFFFF;
+}
 .circle-btn{
     width: 120px;
     height: 120px;
