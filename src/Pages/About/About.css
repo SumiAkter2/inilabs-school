@@ -41,9 +41,40 @@ margin-bottom: 70px;
     padding: 11px 56px;
     color: #FA5E01;
     border:2px solid #FA5E01;
+    margin-right: 444px;
 }
 .learn-more-btn:hover{
     color: #FFFFFF;
        background: #FA5E01;
        cursor: pointer;
+}
+.count-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+     height: 246px;
+     margin: auto;
+    background-color: #FFF9F5;
+     margin-top: -308px;
+     border: 2px solid black;
+}
+.count-number h1{
+    font-family: 'Open Sans' ;
+    font-style: SemiBold;
+     font-size: 60px ;
+     line-height: 82px ;
+     line-height: 100% ;
+    text-align: Left;
+    padding-left: 134px;
+}
+.count-number p {
+    font-family: 'Open Sans';
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 25px;
+    line-height: 100%;
+    text-align: Left;
+    vertical-align: Top;
+    padding-left: 134px;
 }
