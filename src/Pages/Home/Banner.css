@@ -100,3 +100,45 @@
     width: 30px;
     margin-top: 766px;
 }
+.card-1 img{
+    Width: 57.3px;
+     height: 58.98px;
+      
+}
+.card-1{
+width: 480px;
+    height: 400px;
+    padding-top: 58.1px;
+    padding-left: 51.8px;
+    background-color: #FFFFFF;
+}
+.card-1 h1{
+      Width: 286px;
+      height: 180px;
+      Font-family: 'Open Sans' ;
+      Font-size: 24px;
+      Line-height: 36px ;
+      Line-height: 110% ;
+      text-align: Left ;
+      vertical-align: Top;
+      margin-top: 62px;
+     
+}
+.card-2{
+        width: 480px; 
+        height: 400px;
+        padding-top: 58.1px;
+        padding-left: 51.8px;
+        background-color: #FA5E01;
+}
+.card-2 h1 {
+    Width: 286px;
+        height: 180px;
+        Font-family: 'Open Sans';
+        Font-size: 24px;
+        Line-height: 36px;
+        Line-height: 110%;
+        text-align: Left;
+        vertical-align: Top;
+        margin-top: 62px;
+}
