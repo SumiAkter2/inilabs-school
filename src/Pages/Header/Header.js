@@ -1,49 +1,53 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
+import "./Header.css";
 const Header = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <img src="https://i.ibb.co/WH6YJzm/Group-1245.png" alt="logo" />
-        {/* <a href="/" className=" normal-case text-xl font-bold">
-          <img src="../../../public/Group 1245.png" alt="logo" />
-        </a> */}
+        <a href="/">
+          <img
+            className="navbar-logo ml-12"
+            src="https://i.ibb.co/WH6YJzm/Group-1245.png"
+            alt="logo"
+          />
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal p-0 ml-12">
           <li>
-            <a>Item 1</a>
-          </li>
-          <li tabIndex={0}>
-            <a>
-              Parent
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-              </svg>
-            </a>
-            <ul className="p-2">
-              <li>
-                <a>Submenu 1</a>
-              </li>
-              <li>
-                <a>Submenu 2</a>
-              </li>
-            </ul>
+            <CustomLink>Home</CustomLink>
           </li>
           <li>
-            <a>Item 3</a>
+            <Link>About</Link>
+          </li>
+          <li>
+            <CustomLink>Teacher</CustomLink>
+          </li>
+          <li>
+            <CustomLink>Event</CustomLink>
+          </li>
+          <li>
+            <CustomLink>Gallery</CustomLink>
+          </li>
+          <li>
+            <CustomLink>Contact</CustomLink>
+          </li>
+          <li>
+            <CustomLink>Blogs</CustomLink>
+          </li>
+          <li>
+            <CustomLink>Admission</CustomLink>
+          </li>
+          <li>
+            <a href="">Log In</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        {/* <a className="btn">Get started</a> */}
-        <div className="dropdown-start">
+        {/* <CustomLink className="btn">Get started</CustomLink> */}
+        <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,32 +69,28 @@ const Header = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
-            </li>
-            <li tabIndex={0}>
-              <a className="justify-between">
-                Parent
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <CustomLink>Home</CustomLink>
             </li>
             <li>
-              <a>Item 3</a>
+              <CustomLink>About</CustomLink>
+            </li>
+            <li>
+              <CustomLink>Teacher</CustomLink>
+            </li>
+            <li>
+              <CustomLink>Event</CustomLink>
+            </li>
+            <li>
+              <CustomLink>Gallery</CustomLink>
+            </li>
+            <li>
+              <CustomLink>Contact</CustomLink>
+            </li>
+            <li>
+              <CustomLink>Blogs</CustomLink>
+            </li>
+            <li>
+              <CustomLink>Admission</CustomLink>
             </li>
           </ul>
         </div>
