@@ -1,6 +1,6 @@
 # iNiLabs School
 
-[Live Site](https://github.com/facebook/create-react-app).
+[Live Site](https://inilabs-school.web.app/).
 
 ### Technology:
 
