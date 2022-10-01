@@ -72,14 +72,90 @@
     color: #FA5E01;
     border: 2px solid #FA5E01;
 }
-/* .line-1 .line-2 .line-3{
+.right-content img{
+    position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 1200px;
+        top: 362px;
+}
+.right-content h3{
+    position: absolute;
+        width: 197px;
+        height: 38px;
+        left: 1344px;
+        top: 362px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+    
+        color: #FFFFFF;
+}
+.right-content h2{
+    position: absolute;
+        width: 186px;
+        height: 100px;
+        left: 1344px;
+        top: 408px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 50px;
+        /* or 114% */
+    
+    
+        color: #FFFFFF;
+}
+.right-content p{
+    position: absolute;
+        
+        left: 1344px;
+        top: 516px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+.line-logo{
+    margin-bottom: 24px;
+}
+.line-1 {
 position: absolute;
-    width: 300px;
+    width: 30px;
     height: 0px;
-   margin: auto;
-    margin-top: 266px;
-border: 3px solid red;
-} */
+    left: 891px;
+    top: 766px;
+ border: 3px solid #FFFFFF;
+}
+.line-2{
+    position: absolute;
+        width: 30px;
+        height: 0px;
+        left: 945px;
+        top: 766px;
+    border: 3px solid #FA5E01;
+}
+.line-3{
+    position: absolute;
+        width: 30px;
+        height: 0px;
+        left: 999px;
+        top: 766px;
+    border: 3px solid #FFFFFF;
+}
+
 /* ----------------------card---------------------- */
 .card-1 img{
     Width: 57.3px;

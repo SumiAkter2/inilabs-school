@@ -75,6 +75,8 @@ position: absolute;
     height: 16px;
        
 }
+
+
 .teacher-1 img{
     position: absolute;
         width: 440px;
@@ -197,27 +199,32 @@ position: absolute;
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-        /* identical to box height */
-    
-    
         color: #41403F;
 }
 .left-arrow{
-    position: absolute;
-    width: 36px;
-    height: 16px;
-    left: 190px;
-    top: 4515px;
-    margin-left: 865px;
+position: absolute;
+margin-left: 330px;
+border: 3px solid #FFFFFF;
 
+}
+.arrow{
+    display: none;
+    position: absolute;
+    margin-left: 330px;
+    border: #25201D;
+}
+.see-teacher-content{
+position: absolute;
+    width: 1360px;
+    height: 130px;
+    left: 280px;
+    top: 4458px;
+background: #FFFFFF;
 }
 .see-teacher-content p{
     position: absolute;
         width: 383px;
-        height: 46px;
-        left: 732px;
-        top: 4500px;
-    
+        margin: auto;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 600;
@@ -225,7 +232,22 @@ position: absolute;
         line-height: 46px;
         letter-spacing: 0.16em;
         text-transform: uppercase;
-         color: #FA5E01;
+    color: #FA5E01;
+}
+.see-teacher-content:hover p{
+   
+padding-left: 490px;
+padding-top: 40px;
+    height: 130px;
+    width: 1360px;
+    color: #FFFFFF;
+    background: #FA5E01;
+}
+.see-teacher-content:hover .left-arrow{
+    display: none;
+}
+.see-teacher-content:hover .arrow {
+    display: block;
 }
 .facebook img{
    top:4199px;

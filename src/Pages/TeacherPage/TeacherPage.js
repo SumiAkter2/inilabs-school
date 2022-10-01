@@ -79,12 +79,17 @@ const TeacherPage = () => {
         </div>
       </div>
       {/* -----------------------see teacher btn --------------- */}
-      <div className="see-teacher-content flex">
+      <div className="see-teacher-content flex justify-center items-center">
         <p>See Teacher</p>
         <img
           className="left-arrow"
           src="https://i.ibb.co/wBHVbdj/Vector-4.png"
           alt=""
+        />
+        <img
+          className="arrow "
+          src="https://i.ibb.co/5sh1n5V/Vector-16.png"
+          alt="arrow"
         />
       </div>
     </div>

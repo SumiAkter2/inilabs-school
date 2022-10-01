@@ -8,7 +8,7 @@ const Subscribe = () => {
         <form className="form ">
           <p>Enter Your Email</p>
           <input type="text" name="" id="" placeholder="abc@gmail.com" />
-          <button className="subscribe-button ">Apply Now</button>
+          <button className="subscribe-button "> Subscribe</button>
         </form>
       </div>
     </div>

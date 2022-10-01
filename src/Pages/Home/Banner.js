@@ -22,11 +22,33 @@ const Banner = () => {
           </p>
           <button className="apply-btn">Apply Now</button>
         </div>
-        <div className="right-content"></div>
+        <div className="right-content">
+          <img src="https://i.ibb.co/Mpcg2X1/Ellipse-1.png" alt="" />
+          <h3>iNiLabs School</h3>
+          <h2>CAMPUS TOUR</h2>
+          <p>Watch Video (6 Min)</p>
+        </div>
+        <div className="line-logo flex">
+          <img
+            className="line-1"
+            src="https://i.ibb.co/wswNXN2/Line-1.png"
+            alt="line-pic"
+          />
+          <img
+            className="line-2"
+            src="https://i.ibb.co/KxY7Hmm/Line-2.png"
+            alt="line-pic"
+          />
+          <img
+            className="line-3"
+            src="https://i.ibb.co/wswNXN2/Line-1.png"
+            alt="line-pic"
+          />
+        </div>
       </div>
 
       {/* --------after banner card content-------------- */}
-      {/* <div className="grid  md:grid-cols-3 lg:grid-cols-4 w-full">
+      <div className="grid  md:grid-cols-3 lg:grid-cols-4 w-full">
         <div className="card-1">
           <img src="https://i.ibb.co/rm3xyz9/Compound-Path.png" alt="icon" />
           <h1>
@@ -71,7 +93,7 @@ const Banner = () => {
             </span>
           </h1>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
