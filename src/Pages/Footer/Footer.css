@@ -1,0 +1,144 @@
+.footer-container{
+    position: absolute;
+        width: 1920px;
+        height: 428px;
+        left: 0px;
+        top: 4788px;
+    
+        background: #FA5E01;
+}
+.footer-container h6{
+    position: absolute;
+        width: 443px;
+        height: 112px;
+        left: 280px;
+    /* padding-left: 280px; */
+    top: 70px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+    
+    
+        color: #FFFFFF;
+}
+.footer-location img{
+position: absolute;
+    left: 284px;
+    right: 16.67%;
+    top: 234px;
+    bottom: 4.17%;
+
+    /* background: #FFFFFF; */
+}
+.footer-location p{
+    position: absolute;
+        width: 365px;
+        height: 56px;
+        left: 316px;
+        top: 230px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        /* or 127% */
+    
+    
+        color: #FFFFFF;
+}
+.footer-phone img{
+    position: absolute;
+        left: 284px;
+        right: 12.5%;
+        top: 323px;
+        bottom: 12.5%;
+    }
+    .footer-phone p{
+        position: absolute;
+            width: 139px;
+            height: 28px;
+            left: 316px;
+            top: 318px;
+        
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+            /* identical to box height, or 127% */
+        
+        
+            color: #FFFFFF;
+    }
+    .list-item ul{
+        position: absolute;
+        top:70px;
+        left: 891px;
+             
+   } 
+  
+    .list-item ul li a{
+     
+    color: #FFFFFF;
+    background: #FA5E01;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    }
+    .list-item ul li{
+    margin-bottom: 24px;
+    }
+    .follow-content h2{
+    position: absolute;
+    width: 144px;
+    height: 28px;
+    left: 1200px;
+    top:70px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #FFFFFF;
+    }
+    .follow-content p{
+        position: absolute;
+          margin-top: 48px;
+            left: 1200px;
+            top: 218px;
+        
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+            /* identical to box height, or 127% */
+        
+        
+            color: #FFFFFF;
+    }
+    .img-1{
+        
+        margin-top: 144px;   
+        margin-left: 1200px;
+        margin-right: 24px;
+    }
+        .img-2 {
+    
+            margin-top: 144px;
+            margin-left: 1272px;
+            margin-right: 24px;
+        }
+                .img-3 {
+        
+                    margin-top: 144px;
+                    margin-left: 1344px;
+                    margin-right: 24px;
+                }

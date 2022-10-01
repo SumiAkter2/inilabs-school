@@ -6,6 +6,12 @@
         top: 3663px;
         border: 5px solid #FA5E01;
 }
+.social-logo{
+    display: none;
+}
+.teacher-content:hover + .social-logo{
+display: block;
+}
 .teacher-container h1{
     position: absolute;
 width: 400px;
@@ -190,7 +196,7 @@ position: absolute;
     
         color: #FA5E01;
 }
-.social-logo img{
+/* .social-logo img{
     position: absolute;
         left: 0%;
         right: 0%;
@@ -198,4 +204,4 @@ position: absolute;
         bottom: 0%;
     
         background: #FFFFFF;
-}
+} */

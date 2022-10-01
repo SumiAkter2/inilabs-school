@@ -25,24 +25,13 @@ const TeacherPage = () => {
           />
           <h1>Cooper Donin</h1>
           <p>Head of Operation</p>
-          <div className="social-logo">
-            <img
-              src="https://i.ibb.co/zGwtkNd/Vector-3.png"
-              alt="social-icon"
-            />
-            <img
-              src="https://i.ibb.co/FwFPwv4/Vector-7.png"
-              alt="social-icon"
-            />
-            <img
-              src="https://i.ibb.co/QPsFDH4/Vector-5.png"
-              alt="social-icon"
-            />
-            <img
-              src="https://i.ibb.co/TBTFdth/Vector-6.png"
-              alt="social-icon"
-            />
-          </div>
+        </div>
+        <div className="social-logo bg-red-500  ">
+          <p>ygioygiygi</p>
+          <img src="https://i.ibb.co/zGwtkNd/Vector-3.png" alt="social-icon" />
+          <img src="https://i.ibb.co/FwFPwv4/Vector-7.png" alt="social-icon" />
+          <img src="https://i.ibb.co/QPsFDH4/Vector-5.png" alt="social-icon" />
+          <img src="https://i.ibb.co/TBTFdth/Vector-6.png" alt="social-icon" />
         </div>
         <div className="teacher-2">
           <img
@@ -61,7 +50,7 @@ const TeacherPage = () => {
           <p>Spanish Teacher</p>
         </div>
       </div>
-      <div className="see-teacher-content">
+      <div className="see-teacher-content flex">
         <p>See Teacher</p>
         <img src="https://i.ibb.co/wBHVbdj/Vector-4.png" alt="icon" />
       </div>
