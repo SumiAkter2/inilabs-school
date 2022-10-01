@@ -5,7 +5,7 @@ const About = () => {
     <div>
       {/* -----------about card-container---- */}
       <div className="hero min-h-screen ">
-        <div className="hero-content flex-col lg:flex-row-reverse z-1">
+        <div className="hero-content flex-col lg:flex-row-reverse ">
           {/* image-content */}
           <img
             className="img-container "
@@ -30,7 +30,7 @@ const About = () => {
         </div>
       </div>
       {/* --------count-------------------- */}
-      <div className="count-container z-2">
+      <div className="count-container ">
         <div className="count-number">
           <h1>34</h1>
           <p>Teachers</p>

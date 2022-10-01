@@ -1,0 +1,55 @@
+.apply-container{
+    width: 900px;
+    height: 295px;
+    position: absolute;
+    left: 510px;
+    top: 2178px;
+    background: #FA5E01;
+}
+.apply-container h1{
+    position: absolute;
+        /* width: 365px; */
+        height: 54px;
+        padding-left: 48px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
+        top: 48px;
+        color: #FFFFFF;
+}
+.apply-container p{
+    position: absolute;
+       
+        height: 25px;
+        left: 48px;
+
+       margin-bottom: 48px;
+       top: 126px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+}
+.apply-button{
+        position: absolute;
+            width: 199px;
+            height: 56px;
+        margin-left: 48px;
+            top: 191px; 
+        font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 48px;
+            color: #FA5E01;
+            background: #FFFFFF;
+}
+.apply-button:hover{
+    border: 2px solid #FA5E01;
+    background: #FA5E01;
+    color: #FFFFFF;
+}
