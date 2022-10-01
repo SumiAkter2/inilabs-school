@@ -18,4 +18,4 @@
 - Added different type of section,
 - Added a footer.
 
-## As I have Extra time so i have added a extra section like subscribe page.
+## As I have Extra time , I added an extra section e.g subscribe page and a not found page.

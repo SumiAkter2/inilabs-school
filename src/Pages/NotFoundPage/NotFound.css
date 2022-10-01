@@ -1,0 +1,22 @@
+.not-found h2{
+    position: absolute;
+      left: 280px;
+        top: 358px;
+     font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        color: #FFFFFF;
+}
+.not-found h3{
+position: absolute;
+    left: 780px;
+    top: 250px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    color: #FFFFFF;
+}

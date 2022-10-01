@@ -1,4 +1,5 @@
 import React from "react";
+import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
   return (
@@ -14,51 +15,51 @@ const Header = () => {
         <div>
           <ul className=" navbar ">
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/" className="nav">
                 Home
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/about " className="nav">
+              <CustomLink to="/about " className="nav">
                 About
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/teacher" className="nav">
                 Teacher
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/event" className="nav">
                 Event
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/gallery" className="nav">
                 Gallery
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/contact" className="nav">
                 Contact
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/blog" className="nav">
                 Blogs
-              </a>
+              </CustomLink>
             </li>
 
             <li>
-              <a href="/" className="nav">
+              <CustomLink to="/admission" className="nav">
                 Admission
-              </a>
+              </CustomLink>
             </li>
 
             <li className="login nav">
