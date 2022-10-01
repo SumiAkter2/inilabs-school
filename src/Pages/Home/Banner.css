@@ -1,61 +1,71 @@
-.banner-img{
-    width: 1920px;
-    height: 790px;
+.banner-content {
+    position: absolute;
+        width: 1920px;
+        height: 990px;
+        left: 0px;
+        top: 100px;
 }
-.banner-content{
-    width: 100%;
-}
+
 .top-horizontal-line img{
-    width: 30px;
+position: absolute;
+    width: 34px;
+    height: 0px;
+    left: 280px;
+    top: 192px;
+ border: 2px solid #FFFFFF;
 }
-.top-content {
-    Font-family: 'Open Sans';
-    font-weight: bold;
-    Font-size: 14px;
-    Line-height: 19px;
-    Line-height: 100%;
-    text-align: left;
-    vertical-align: top;
+.top-text{
+position: absolute;
+    width: 171px;
+    height: 19px;
+    left: 280px;
+    top: 228px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
     color: #FFFFFF;
-   margin-top: 8px;
-   margin-bottom: 139px;
-   
 }
-/* 
-.banner-left-content{
-    width: 621px;
-    height: 180px;
-   
-} */
+
 .banner-left-content h1{
-    Font-family: 'Open Sans';
-    font-weight: Bold;
-    Font-size: 80px;
-    Line-height: 90px;
-    Line-height: 83% ;
-    text-align: left;
-    vertical-align: top;
+    position: absolute;
+        width: 621px;
+        height: 180px;
+        left: 280px;
+        top: 358px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+         color: #FFFFFF;
 }
 .banner-left-content p{
-    Font-family: 'Open Sans';
-    font-weight: 300;
-    Font-size: 26px;
-    Line-height: 40px;
-    Line-height: 113%;
-    text-align: left;
-    vertical-align: top;
+    position: absolute;
+        width: 533px;
+        height: 80px;
+        left: 280px;
+        top: 586px;
+     font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 40px;
+        /* or 154% */
+    
+    margin-bottom: 355px;
+        color: #FFFFFF;
 }
 .apply-btn{
-    width: 237px ;
+position: absolute;
+    width: 237px;
     height: 70px;
-    background-color: #FA5E01;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    Font-size: 24px;
-    Line-height: 48px;
-    Line-height: 147%;
-    margin-top: 64px;
-    Vertical-align: Top;
+    left: 280px;
+    top: 730px;
+margin-bottom: 90px;
+    background: #FA5E01;
     
 }
 .apply-btn:hover{
@@ -65,86 +75,184 @@
     background: #FFFFFF;
 }
 .circle-btn{
+position: absolute;
     width: 120px;
     height: 120px;
-    margin-left: 299px;
-}
-.banner-right-content h4{
-        Font-family: 'Open Sans';
-        font-weight: 300;
-        Font-size: 28px;
-        Line-height: 38px;
-        Line-height: 100%;
-        text-align: left;
-        vertical-align: top;
-        color: #FFFFFF;
-}
-.banner-right-content h3 {
-    Font-family: 'Open Sans';
-    font-weight: bold;
-    Font-size: 44px;
-    Line-height: 50px;
-    Line-height: 83%;
-    text-align: left;
-    vertical-align: top;
-    color: #FFFFFF;
-    margin-top: 8px;
-}
-.banner-right-content p {
-    Font-family: 'Open Sans';
-    font-weight: bold;
-    Font-size: 14px;
-    Line-height: 19px;
-    Line-height: 100%;
-    text-align: left;
-    vertical-align: top;
-    color: #FFFFFF;
-    margin-top: 8px;
+    left: 1200px;
+    top: 362px;
+
     
 }
-.horizontal-line img{
-    width: 30px;
-    margin-top: 766px;
+.banner-right-content h4{
+        position: absolute;
+            width: 197px;
+            height: 38px;
+            left: 1344px;
+            top: 362px;
+        
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 38px;
+        
+            color: #FFFFFF;
 }
+.banner-right-content h3 {
+    position: absolute;
+        width: 186px;
+        height: 100px;
+        left: 1344px;
+        top: 408px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 50px;
+        /* or 114% */
+    
+    
+        color: #FFFFFF;
+}
+.banner-right-content p {
+    position: absolute;
+        width: 152px;
+        height: 19px;
+        left: 1344px;
+        top: 516px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+.line-1 .line-2 .line-3{
+position: absolute;
+    width: 300px;
+    height: 0px;
+   margin: auto;
+    margin-top: 266px;
+border: 3px solid red;
+}
+/* ----------------------card---------------------- */
 .card-1 img{
     Width: 57.3px;
      height: 58.98px;
-      
+      margin-top: 52px;
+    margin-left: 51.85px;
+    margin-bottom: 62px;
 }
 .card-1{
-width: 480px;
+position: absolute;
+    width: 480px;
     height: 400px;
-    padding-top: 58.1px;
-    padding-left: 51.8px;
-    background-color: #FFFFFF;
+    left: 0px;
+    top: 890px;
+
+    background: #FFFFFF;
 }
 .card-1 h1{
-      Width: 286px;
-      height: 180px;
-      Font-family: 'Open Sans' ;
-      Font-size: 24px;
-      Line-height: 36px ;
-      Line-height: 110% ;
-      text-align: Left ;
-      vertical-align: Top;
-      margin-top: 62px;
+    position: absolute;
+        width: 286px;
+        height: 180px;
+        left: 48px;
+        top: 172px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #25201D;
      
 }
 .card-2{
-        width: 480px; 
+    position: absolute;
+        width: 480px;
         height: 400px;
-        padding-top: 58.1px;
-        padding-left: 51.8px;
-        background-color: #FA5E01;
+        left: 480px;
+        top: 890px;
+         background: #FA5E01;
+}
+.card-2 img {
+    Width: 57.3px;
+    height: 58.98px;
+    margin-top: 52px;
+    margin-left: 51.85px;
 }
 .card-2 h1 {
-    Width: 286px;
+width: 286px;
+    height: 180px;
+    margin-left: 48px;
+    margin-top: 62px;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+       color: #FFFFFF;
+}
+.card-3 {
+    position: absolute;
+        width: 480px;
+        height: 400px;
+        left: 960px;
+        top: 890px;
+    
+        background: #FFFFFF;
+}
+.card-3 img {
+    Width: 57.3px;
+    height: 58.98px;
+    margin-top: 52px;
+    margin-left: 51.85px;
+}
+.card-3 h1{
+    width: 286px;
+    height: 180px;
+    margin-left: 48px;
+    margin-top: 62px;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #25201D;
+}
+.card-4 {
+    position: absolute;
+        width: 480px;
+        height: 400px;
+        left: 1440px;
+        top: 890px;
+    
+        /* primary */
+    
+        background: #FA5E01;
+}
+.card-4 img {
+    Width: 57.3px;
+    height: 58.98px;
+    margin-top: 52px;
+    margin-left: 51.85px;
+}
+.card-4 h1{
+        width: 286px;
         height: 180px;
-        Font-family: 'Open Sans';
-        Font-size: 24px;
-        Line-height: 36px;
-        Line-height: 110%;
-        text-align: Left;
-        vertical-align: Top;
+        margin-left: 48px;
         margin-top: 62px;
+        font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+         color: #FFFFFF;
 }

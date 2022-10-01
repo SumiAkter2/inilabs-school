@@ -3,6 +3,8 @@ import About from "../About/About";
 import Apply from "../ApplyPage/Apply";
 import Footer from "../Footer/Footer";
 import PrinciplePage from "../PrinciplePage/PrinciplePage";
+import Subscribe from "../Subscribe/Subscribe";
+
 import TeacherPage from "../TeacherPage/TeacherPage";
 import Banner from "./Banner";
 
@@ -14,6 +16,7 @@ const Home = () => {
       <Apply />
       <PrinciplePage />
       <TeacherPage />
+      <Subscribe />
       <Footer />
     </div>
   );

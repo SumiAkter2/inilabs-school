@@ -3,18 +3,19 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div>
-      <div>
+      <div className="  banner-content ">
         {/* ********************banner content*************** */}
         <div
-          className="hero banner-img "
+          className="hero  "
           style={{
             backgroundImage: `url("https://i.ibb.co/jhCzQzX/Rectangle-1.png")`,
             height: "799px",
           }}
         >
+          <p className="top-text">A tradition since 2002</p>
           <div className="  text-white ">
             {/*--------------- banner-content ---------------*/}
-            <div className="  banner-content ">
+            <div>
               <div className="flex justify-between items-center banner-left-content ">
                 <div className=" w-1/2">
                   {/* -----------top-content--------- */}
@@ -23,7 +24,6 @@ const Banner = () => {
                       src="https://i.ibb.co/wswNXN2/Line-1.png"
                       alt="line-img"
                     />
-                    <p className="top-content">A tradition since 2002</p>
                   </div>
                   {/*--------------- banner-left-content ---------------*/}
                   <h1>
@@ -57,19 +57,19 @@ const Banner = () => {
           </div>
 
           {/* -----------horizontal-line for bottom------------------- */}
-          <div className="flex justify-center items-center  horizontal-line">
+          <div className="flex   horizontal-line">
             <img
-              className="mr-4"
+              className="mr-4 line-1"
               src="https://i.ibb.co/wswNXN2/Line-1.png"
               alt="line-img"
             />
             <img
-              className="mr-4"
+              className="mr-4 line-2"
               src="https://i.ibb.co/KxY7Hmm/Line-2.png"
               alt="line-img"
             />
             <img
-              className="mr-4 "
+              className="mr-4 line-3"
               src="https://i.ibb.co/wswNXN2/Line-1.png"
               alt="line-img"
             />
@@ -101,7 +101,7 @@ const Banner = () => {
             </span>
           </h1>
         </div>
-        <div className="card-1">
+        <div className="card-3">
           <img src="https://i.ibb.co/qDFfdKG/Vector-2.png" alt="icon" />
           <h1>
             Educational in English:
@@ -112,7 +112,7 @@ const Banner = () => {
             </span>
           </h1>
         </div>
-        <div className="card-2">
+        <div className="card-4">
           <img src="https://i.ibb.co/nn4z2gN/Vector-2.png" alt="icon" />
           <h1>
             Educational in English:
