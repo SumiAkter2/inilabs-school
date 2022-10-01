@@ -131,14 +131,19 @@ position: absolute;
         margin-right: 24px;
     }
         .img-2 {
-    
             margin-top: 144px;
-            margin-left: 1272px;
-            margin-right: 24px;
-        }
-                .img-3 {
-        
-                    margin-top: 144px;
-                    margin-left: 1344px;
-                    margin-right: 24px;
-                }
+            margin-left: 24px;
+         }
+.img-3 {
+     margin-top: 144px;
+     margin-left: 24px;
+    }
+   .img-4 {
+    margin-top: 144px;
+    margin-left: 24px;
+     }
+ .img-5 {   
+    margin-top: 144px;
+    margin-left: 24px;
+                                                                           
+   }
