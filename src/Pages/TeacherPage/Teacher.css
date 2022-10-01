@@ -6,12 +6,12 @@
         top: 3663px;
         border: 5px solid #FA5E01;
 }
-.social-logo{
+/* .social-logo{
     display: none;
 }
 .teacher-content:hover + .social-logo{
 display: block;
-}
+} */
 .teacher-container h1{
     position: absolute;
 width: 400px;
@@ -26,21 +26,52 @@ font-size: 60px;
 line-height: 82px;
 color: #25201D;
 }
-.arrow-1{
-    position: absolute;
-        left: 12.5%;
-        right: 12.5%;
-        top: 33.33%;
-        bottom: 33.33%;
-        border: 3px solid #929292;
+.arrow-1 {
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        left: 1477px;
+        top: 3683px;
+    
+        background: #FFFFFF;
+        border: 1px solid #E3E2E1;
+    
 }
 .arrow-2{
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        left: 1558px;
+        top: 3683px;
+    
+        background: #FFFFFF;
+        border: 1px solid #E3E2E1;
+}
+.arrow-1 img{
+   
     position: absolute;
         left: 12.5%;
         right: 12.5%;
         top: 33.33%;
         bottom: 33.33%;
-    border: 3px solid #FA5E01;
+        width: 36px;
+       margin: auto;
+       
+}
+.arrow-2 img{
+  
+position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 33.33%;
+    bottom: 33.33%;
+    margin: auto;
+    width: 36px;
+       
 }
 .teacher-1 img{
     position: absolute;
@@ -169,13 +200,14 @@ position: absolute;
     
         color: #41403F;
 }
-.see-teacher-content img{
+.left-arrow{
     position: absolute;
-        left: 12.5%;
-        right: 12.5%;
-        top: 33.33%;
-        bottom: 33.33%;
- border: 3px solid #FA5E01;
+    width: 36px;
+    height: 16px;
+    left: 190px;
+    top: 4515px;
+    margin-left: 865px;
+ 
 }
 .see-teacher-content p{
     position: absolute;
@@ -191,17 +223,34 @@ position: absolute;
         line-height: 46px;
         letter-spacing: 0.16em;
         text-transform: uppercase;
-    
-        /* primary */
-    
-        color: #FA5E01;
+         color: #FA5E01;
 }
-/* .social-logo img{
+.facebook img{
+   top:4199px;
+    bottom: 28px;
+    margin-left: 768px;
     position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
+       width: 48px;
     
-        background: #FFFFFF;
-} */
+}
+.twitter {
+    top: 4199px;
+        bottom: 28px;
+        margin-left: 846px;
+        position: absolute;
+        width: 48px;
+}
+.linkedin img{
+    top: 4199px;
+        bottom: 28px;
+        margin-left: 924px;
+        position: absolute;
+        width: 48px;
+}
+.google img{
+    top: 4199px;
+        bottom: 28px;
+        margin-left: 1002px;
+        position: absolute;
+        width: 48px;
+}
