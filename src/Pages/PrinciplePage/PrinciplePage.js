@@ -9,7 +9,7 @@ const PrinciplePage = () => {
           <img
             className="image-container "
             src="https://i.ibb.co/Sytt0tp/Rectangle-16.png"
-            alt="university-pic"
+            alt="principle-pic"
           />
           {/*------------principle text-content ---------------*/}
           <div className="principle-text-content">
