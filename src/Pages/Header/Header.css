@@ -1,8 +1,36 @@
-.navbar-logo{
-    width:163px;
-    height:60px;
+.navbar-container{
+    position: absolute;
+        width: 1920px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+    margin-bottom: -20px;
+        background: #FFFFFF;
+        z-index: 1;
 }
-.login-logo{
-    width: 110px;
+.navbar-logo{
+    width: 163px;
+    height: 60px;
+       left: 280px;
+}
+.login{
+    position: absolute;
+        width: 110px;
         height: 166px;
+        left: 1678px;
+        /* margin-bottom: -60px; */
+        top: 0px;
+        
+}
+.nav{
+   
+       
+       margin-right: 44px;
+       
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
 }

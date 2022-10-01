@@ -59,11 +59,12 @@ color: #25201D;
         top: 33.33%;
         bottom: 33.33%;
         width: 36px;
+        height: 16px;
        margin: auto;
-       
+    border: 3px solid #929292;
 }
 .arrow-2 img{
-  
+border: 3px solid #FA5E01;
 position: absolute;
     left: 12.5%;
     right: 12.5%;
@@ -71,6 +72,7 @@ position: absolute;
     bottom: 33.33%;
     margin: auto;
     width: 36px;
+    height: 16px;
        
 }
 .teacher-1 img{
@@ -207,7 +209,7 @@ position: absolute;
     left: 190px;
     top: 4515px;
     margin-left: 865px;
- 
+
 }
 .see-teacher-content p{
     position: absolute;

@@ -1,40 +1,37 @@
-.banner-content {
+
+.banner-content{
     position: absolute;
         width: 1920px;
-        height: 990px;
+        height: 790px;
         left: 0px;
         top: 100px;
-}
 
-.top-horizontal-line img{
-position: absolute;
-    width: 34px;
-    height: 0px;
-    left: 280px;
-    top: 192px;
- border: 2px solid #FFFFFF;
 }
-.top-text{
-position: absolute;
-    width: 171px;
-    height: 19px;
-    left: 280px;
-    top: 228px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
+.top-content{
+        position: absolute;
+        width: 34px;
+        height: 0px;
+        left: 280px;
+        top: 92px;
+        border: 2px solid #FFFFFF;
 }
-
-.banner-left-content h1{
+.top-content h2{
+        position: absolute;
+        width: 191px;
+     margin-top: 8px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+       color: #FFFFFF;
+}
+.left-content h1{
     position: absolute;
         width: 621px;
         height: 180px;
         left: 280px;
-        top: 358px;
-    
+        top: 258px;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 700;
@@ -42,106 +39,47 @@ position: absolute;
         line-height: 90px;
          color: #FFFFFF;
 }
-.banner-left-content p{
+.left-content p{
     position: absolute;
         width: 533px;
         height: 80px;
         left: 280px;
-        top: 586px;
-     font-family: 'Open Sans';
+        top: 486px;
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: 600;
         font-size: 26px;
         line-height: 40px;
-        /* or 154% */
-    
-    margin-bottom: 355px;
-        color: #FFFFFF;
+         color: #FFFFFF;
 }
 .apply-btn{
-position: absolute;
-    width: 237px;
-    height: 70px;
-    left: 280px;
-    top: 730px;
-margin-bottom: 90px;
-    background: #FA5E01;
-    
-}
-.apply-btn:hover{
-    color: #FA5E01;
-    cursor: pointer;
-    border: 2px solid #FA5E01;
-    background: #FFFFFF;
-}
-.circle-btn{
-position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 1200px;
-    top: 362px;
-
-    
-}
-.banner-right-content h4{
-        position: absolute;
-            width: 197px;
-            height: 38px;
-            left: 1344px;
-            top: 362px;
-        
-            font-family: 'Open Sans';
+    position: absolute;
+        width: 237px;
+        height: 70px;
+        left: 280px;
+        top: 630px;
+    margin-bottom: 300px;
+        background: #FA5E01;
+        font-family: 'Open Sans';
             font-style: normal;
             font-weight: 600;
-            font-size: 28px;
-            line-height: 38px;
-        
+            font-size: 24px;
+            line-height: 48px;
             color: #FFFFFF;
 }
-.banner-right-content h3 {
-    position: absolute;
-        width: 186px;
-        height: 100px;
-        left: 1344px;
-        top: 408px;
-    
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 50px;
-        /* or 114% */
-    
-    
-        color: #FFFFFF;
+.apply-btn:hover{
+    background-color: #FFFFFF;
+    color: #FA5E01;
+    border: 2px solid #FA5E01;
 }
-.banner-right-content p {
-    position: absolute;
-        width: 152px;
-        height: 19px;
-        left: 1344px;
-        top: 516px;
-    
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 19px;
-        /* identical to box height */
-    
-        text-transform: uppercase;
-    
-        color: #FFFFFF;
-}
-
-.line-1 .line-2 .line-3{
+/* .line-1 .line-2 .line-3{
 position: absolute;
     width: 300px;
     height: 0px;
    margin: auto;
     margin-top: 266px;
 border: 3px solid red;
-}
+} */
 /* ----------------------card---------------------- */
 .card-1 img{
     Width: 57.3px;
